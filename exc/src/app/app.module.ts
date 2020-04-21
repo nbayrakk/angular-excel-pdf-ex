@@ -14,7 +14,7 @@ import { PdfService } from './service/pdf.service';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [ExcelService, PdfService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

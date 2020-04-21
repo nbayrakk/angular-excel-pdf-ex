@@ -7,6 +7,7 @@ import { PdfService } from './service/pdf.service';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
+  providers: [ExcelService,PdfService]
 })
 export class AppComponent {
   title = 'exc';
